@@ -178,3 +178,20 @@ div > img {
     position: relative;
     bottom: 10px;
 }
+
+@media (max-width: 1140px)   {
+    #social-contacts {
+        flex-direction: column;
+    }
+
+    #social-contacts > a {
+        margin: auto;
+        margin-bottom: 1.5em;
+    }
+
+    #social-contacts > a:hover {
+        position: relative;
+        top: 0px;
+        left: 15px;
+    }
+}
