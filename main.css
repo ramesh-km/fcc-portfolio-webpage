@@ -136,3 +136,45 @@ div > img {
     background-color: rgb(200, 200, 200);
     color: black;
 }
+
+#contacts {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contacts > div:nth-child(1)  > p:nth-child(1)  {
+    font-size: 4em;
+    text-align: center;
+    margin: 0px;
+}
+
+#contacts > div:nth-child(1)  > p:nth-child(2)  {
+    font-size: 2em;
+    text-align: center;
+}
+
+#social-contacts {
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50vw;
+}
+
+#social-contacts > a > i {
+    font-size: 2em;
+    color: white;
+}
+
+#social-contacts > a {
+    text-decoration: none;
+    font-size: 2em;
+}
+
+#social-contacts > a:hover {
+    color: white;
+    position: relative;
+    bottom: 10px;
+}
